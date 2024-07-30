@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+            <ul>
+                <li class="profile">
+                    <div class="img-box">
+                        <img src="/pictures/user-200x300.webp" alt="">
+                    </div>
+                    <h2>Anas</h2>
+                </li>
+                <li>
+                    <a href="#" class="home">
+                        <i class="fas fa-home"></i>
+                        <p>dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        <p>clients</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-table"></i>
+                        <p>charts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-pen"></i>
+                        <p>posts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                        <p>favorite</p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="mood()" href="#">
+                        <i class="fas fa-sun"></i>
+                        <p id = 'mood'>light mood</p>
+                    </a>
+                </li>
+                <li>
+                    <a  class="log-out" href="#">
+                        <i class="fas fa-sign-out"></i>
+                        <p>Log Out</p>
+                    </a>
+                </li>
+            </ul>
+
+    </div>
+
+    <div class="content">
+        <div class="title-info">
+            <p>dashboard</p>
+            <i class="fas fa-chart-bar"></i>
+        </div>
+        <div class="data-info">
+            
+    
+            <div class="box">
+                <i class="fas fa-user"></i>
+                <div class="data">
+                    <p>user</p>
+                    <span>100</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-pen"></i>
+                <div class="data">
+                    <p>user</p>
+                    <span>34</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-table"></i>
+                <div class="data">
+                    <p>products</p>
+                    <span>654</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-dollar"></i>
+                <div class="data">
+                    <p>revenue</p>
+                    <span>$126</span>
+                </div>
+            </div>
+        </div>
+        <div class="title-info">
+            <p>products</p>
+            <i class="fas fa-table"></i>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>product</th>
+                    <th>price</th>
+                    <th>count</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">$100</span></td>
+                    <td><span class="count">50</span></td>
+                </tr><tr>
+                    <td>phone</td>
+                    <td><span class="price">$90</span></td>
+                    <td><span class="count">60</span></td>
+                </tr><tr>
+                    <td>laptop</td>
+                    <td><span class="price">$110</span></td>
+                    <td><span class="count">50</span></td>
+                </tr><tr>
+                    <td>computer</td>
+                    <td><span class="price">$200</span></td>
+                    <td><span class="count">90</span></td>
+                </tr><tr>
+                    <td>play station</td>
+                    <td><span class="price">$70</span></td>
+                    <td><span class="count">20</span></td>
+                </tr><tr>
+                    <td>x-box</td>
+                    <td><span class="price">$300</span></td>
+                    <td><span class="count">40</span></td>
+                </tr><tr>
+                    <td>vedio game</td>
+                    <td><span class="price">$10</span></td>
+                    <td><span class="count">220</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
